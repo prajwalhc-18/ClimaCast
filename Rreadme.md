@@ -1,6 +1,7 @@
-Certainly! Here's a sample README content for your "ReactForecast" project:
+# user can seen the local data in thier own language and langauge choosing according the user requirement
+# detecting weather using the user own gps location
+# it need to show the data of 3 days before and 3 days after data 
 
----
 
 # ReactForecast
 

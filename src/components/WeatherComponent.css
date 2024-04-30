@@ -1,0 +1,61 @@
+/* WeatherComponent.css */
+
+.weather-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Title color */
+  }
+  
+  .select-language {
+    margin-bottom: 20px;
+  }
+  
+  .select-language label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333; /* Label color */
+  }
+  
+  .select-language select {
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .get-location-btn,
+  .search-city button {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-location-btn:hover,
+  .search-city button:hover {
+    background-color: #2980b9; /* Hover background color */
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+    color: #333; /* Weather info text color */
+  }
+  
+  .error-message {
+    margin-top: 20px;
+    color: #ff0000; /* Error message color */
+    font-weight: bold;
+  }
+  
