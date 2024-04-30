@@ -68,7 +68,7 @@ To get started with ReactForecast, follow these steps:
     npm start
     ```
 
-6. Open `http://localhost:3000` in your web browser to view the application.
+6. Open `http://localhost:5173` in your web browser to view the application.
 
 ## Contributing
 
