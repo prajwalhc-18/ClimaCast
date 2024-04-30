@@ -1,7 +1,3 @@
-Certainly! Let's add more technical details to the README:
-
----
-
 # ReactForecast
 
 ReactForecast is a dynamic weather forecasting application built using React. It provides users with up-to-date weather information for various locations around the world, allowing them to plan their activities accordingly.
@@ -82,6 +78,3 @@ Contributions are welcome! If you encounter any bugs or have suggestions for new
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
-
-This README provides an overview of the ReactForecast project, its features, technologies used, architecture overview, how to get started, how to contribute, and the project's license information. Feel free to customize it further to suit your project's needs!
