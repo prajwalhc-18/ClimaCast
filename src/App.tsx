@@ -1,14 +1,23 @@
-// App.jsx
-
 import React, { useState } from 'react';
 import './App.css';
+
+// Define a type for the weather data
+interface WeatherData {
+  name: string;
+  main: {
+    temp: number;
+  };
+  weather: {
+    description: string;
+  }[];
+}
 
 const apiKey = '469f57d03bb3241cdfdb4b0d380cf205';
 
 function App() {
   const [city, setCity] = useState('');
-  const [weatherData, setWeatherData] = useState(null);
-  const [error, setError] = useState<string | null>(null); // Specify type for error state
+  const [weatherData, setWeatherData] = useState<WeatherData | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   const getWeather = async () => {
     try {
