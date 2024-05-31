@@ -1,6 +1,6 @@
-# ReactForecast
+# ClimaCast
 
-ReactForecast is a dynamic weather forecasting application built using React. It provides users with up-to-date weather information for various locations around the world, allowing them to plan their activities accordingly.
+ClimaCast is a dynamic weather forecasting application built using React. It provides users with up-to-date weather information for various locations around the world, allowing them to plan their activities accordingly.
 
 ## Features
 
